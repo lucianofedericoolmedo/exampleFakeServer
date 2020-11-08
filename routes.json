@@ -1,0 +1,5 @@
+{
+	"/google/login": "/googleLogin",
+	"/google/register": "/googleLoginAndRegister",
+	"facebook/business/summary": "facebookBusinessSummary"
+}
