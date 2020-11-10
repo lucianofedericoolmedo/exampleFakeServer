@@ -39,5 +39,15 @@
       "campaignsCount": 6,
       "totalResults": 1450
     }
+  ],
+  "reset-password": [
+    {
+      "message": "A reset password email has been sent to user."
+    }
+  ],
+  "reset": [
+    {
+      "message": "Password changed successfully"
+    }
   ]
 }
