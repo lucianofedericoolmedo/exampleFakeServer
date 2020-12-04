@@ -1,5 +1,7 @@
 {
 	"/google/login": "/googleLogin",
 	"/google/register": "/googleLoginAndRegister",
-	"facebook/business/summary": "facebookBusinessSummary"
+	"/facebook/business/summary": "/facebookBusinessSummary",
+	"/campaigns": "/campaigns",
+	"/campaigns/:id": "/campaign?campaign=:id"
 }

@@ -49,5 +49,100 @@
     {
       "message": "Password changed successfully"
     }
-  ]
+  ],
+  "campaigns": [
+    {
+        "id": 1,
+        "name": "Campaign 1"
+    },
+    {
+      "id": 2,
+      "name": "campaign 2"
+    },
+    {
+      "id": 3,
+      "name": "campaign 3"
+    }
+  ],
+  "campaign": [
+    {
+        "id": 1,
+        "data": {
+          "lifetimeBudget": "ARS 100.000",
+          "status": "Active",
+          "strategy": "Strategy",
+          "objective": "Results",
+          "dateStart": "10-dec-2020",
+          "dateEnd": "10-apr-2021",
+          "clicks": "50000",
+          "results": "5000",
+          "impressions": "150000",
+          "cpc": "ARS 10.22",
+          "spend": "ARS 80.000",
+          "cpr": "ARS 300.12"
+        },
+        "adSets": [
+          {
+            "name": "Adset1",
+            "status": "Active",
+            "createdAt": "10-dec-2020",
+            "clicks": "30000",
+            "cpc": "ARS 9.10",
+            "results": "4000",
+            "cpr": "ARS 200.53"
+          },
+          {
+            "name": "Adset2",
+            "status": "Active",
+            "createdAt": "10-dec-2020",
+            "clicks": "20000",
+            "cpc": "ARS 14.80",
+            "results": "1000",
+            "cpr": "ARS 400.98"
+          }
+      ],
+      "Ads": [
+           {
+            "adSetName": "Adset1",
+            "name": "Ad1",
+            "status": "Active",
+            "createdAt": "10-dec-2020",
+            "clicks": "1234",
+            "cpc": "ARS 19.10",
+            "results": "3000",
+            "cpr": "ARS 200.53"
+          },
+          {
+            "adSetName": "Adset1",
+            "name": "Ad2",
+            "status": "Active",
+            "createdAt": "10-dec-2020",
+            "clicks": "4444",
+            "cpc": "ARS 8.80",
+            "results": "1000",
+            "cpr": "ARS 212.98"
+          },
+          {
+            "adSetName": "Adset2",
+            "name": "Ad3",
+            "status": "Active",
+            "createdAt": "10-dec-2020",
+            "clicks": "1111",
+            "cpc": "ARS 11.10",
+            "results": "2210",
+            "cpr": "ARS 200.53"
+          },
+          {
+            "adSetName": "Adset2",
+            "name": "Ad4",
+            "status": "Active",
+            "createdAt": "10-dec-2020",
+            "clicks": "222",
+            "cpc": "ARS 18.80",
+            "results": "3442",
+            "cpr": "ARS 322.98"
+          }
+      ]
+    }
+  ] 
 }
